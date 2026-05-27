@@ -49,7 +49,6 @@ controls:
       - path: ../platforms/ios/configuration-profiles/passcode-settings.json
         labels_include_any:
           - C-Suite
-      # - path: ../lib/ios/configuration-profiles/self-service.mobileconfig
   android_settings:
     configuration_profiles:
     certificates:
