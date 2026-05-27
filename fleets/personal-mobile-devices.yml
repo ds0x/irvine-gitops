@@ -41,10 +41,14 @@ controls:
   #   • https://fleetdm.com/docs/configuration/yaml-files#apple-settings-and-windows-settings
   #   • https://fleetdm.com/docs/configuration/yaml-files#android-settings
   ###########################################################
+  scripts:
+    - paths: ../platforms/windows/scripts/*.ps1
   apple_settings:
     configuration_profiles:
       # … e.g.
-      # - path: ../lib/ios/declaration-profiles/Passcode settings.json
+      - path: ../lib/ios/congfiguration-profiles/passcode-settings.json
+        labels_include_any:
+          - C-Suite
       # - path: ../lib/ios/configuration-profiles/self-service.mobileconfig
   android_settings:
     configuration_profiles:
