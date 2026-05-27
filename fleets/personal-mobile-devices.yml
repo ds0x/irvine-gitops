@@ -46,7 +46,7 @@ controls:
   apple_settings:
     configuration_profiles:
       # … e.g.
-      - path: ../lib/ios/configuration-profiles/passcode-settings.json
+      - path: ./lib/ios/configuration-profiles/passcode-settings.json
         labels_include_any:
           - C-Suite
       # - path: ../lib/ios/configuration-profiles/self-service.mobileconfig
