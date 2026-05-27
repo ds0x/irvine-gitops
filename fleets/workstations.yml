@@ -75,7 +75,7 @@ controls:
     minimum_version: "26.4"
   windows_settings:
     configuration_profiles:
-      - paths: ../platforms/windows/configuration-profiles/*.xml
+      - paths: ./platforms/windows/configuration-profiles/*.xml
 
   ###########################################################
   # Managed disk encryption
